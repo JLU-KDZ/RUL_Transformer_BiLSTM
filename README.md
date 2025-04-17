@@ -8,24 +8,24 @@ This project aims to utilize the NASA lithium-ion battery dataset to construct a
 
 ```
 .
-├── dataset                 				# Dataset related files
-│   ├── B0005.mat   						# Original NASA battery data B0005
-│	├── B0006.mat   						# Original NASA battery data B0006
-│	├── B0007.mat   						# Original NASA battery data B0007
-│	└── B0018.mat   						# Original NASA battery data B0018
-├── model                  					# Model related files
-│   ├── best_model_LSTM.pt  				# LSTM model file
-│   ├── best_model_Transformer.pt       	# Transformer model file
-│   └── best_model_TransformerBiLSTM.pt 	# Transformer-BiLSTM model file
-├── picture                 				# picture files
-├── data_process.py							# Data processing.
-├── data_trans.py							# Data transformation.
-├── model_compare.ipynb						# Model comparison.
-├── model_test.py							# Model testing.
-├── model_train.py							# Model training.
-├── Transformer_BiLSTM.py					# Contains the model definition.
-├── requirements.txt        				# Project dependencies
-└── README.md               				# Project description
+├── dataset                 		        # Dataset related files
+│   ├── B0005.mat   						        # Original NASA battery data B0005
+│	├── B0006.mat   						          # Original NASA battery data B0006
+│	├── B0007.mat   						          # Original NASA battery data B0007
+│	└── B0018.mat   						          # Original NASA battery data B0018
+├── model                  					    # Model related files
+│   ├── best_model_LSTM.pt  				    # LSTM model file
+│   ├── best_model_Transformer.pt       # Transformer model file
+│   └── best_model_TransformerBiLSTM.pt # Transformer-BiLSTM model file
+├── picture                 				    # picture files
+├── data_process.py							        # Data processing.
+├── data_trans.py							          # Data transformation.
+├── model_compare.ipynb						      # Model comparison.
+├── model_test.py							          # Model testing.
+├── model_train.py							        # Model training.
+├── Transformer_BiLSTM.py					      # Contains the model definition.
+├── requirements.txt        				    # Project dependencies
+└── README.md               				    # Project description
 ```
 
 ### 3. Environment Configuration
