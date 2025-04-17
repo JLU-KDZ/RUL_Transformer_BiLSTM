@@ -111,8 +111,8 @@ plot_train_results(train_true, train_pred, 'Training Set Prediction Results')
 
 # 计算训练集误差指标
 train_mse, train_rmse, train_mae, train_r2 = calculate_metrics(train_true, train_pred)
-print('Training Set R^2 Score:', train_r2)
 print('-' * 70)
+print('Training Set R^2 Score:', train_r2)
 print('Training Set Mean Squared Error (MSE): ', train_mse)
 print('Training Set Root Mean Squared Error (RMSE): ', train_rmse)
 print('Training Set Mean Absolute Error (MAE): ', train_mae)
@@ -129,8 +129,8 @@ plot_results(val_true, val_pred, 'Validation Set Prediction Results - B0007 Batt
 
 # 计算验证集误差指标
 val_mse, val_rmse, val_mae, val_r2 = calculate_metrics(val_true, val_pred)
-print('Validation Set R^2 Score:', val_r2)
 print('-' * 70)
+print('Validation Set R^2 Score:', val_r2)
 print('Validation Set Mean Squared Error (MSE): ', val_mse)
 print('Validation Set Root Mean Squared Error (RMSE): ', val_rmse)
 print('Validation Set Mean Absolute Error (MAE): ', val_mae)
@@ -147,8 +147,8 @@ plot_results(test_true, test_pred, 'Test Set Prediction Results - B0018 Battery'
 
 # 计算测试集误差指标
 test_mse, test_rmse, test_mae, test_r2 = calculate_metrics(test_true, test_pred)
-print('Test Set R^2 Score:', test_r2)
 print('-' * 70)
+print('Test Set R^2 Score:', test_r2)
 print('Test Set Mean Squared Error (MSE): ', test_mse)
 print('Test Set Root Mean Squared Error (RMSE): ', test_rmse)
 print('Test Set Mean Absolute Error (MAE): ', test_mae)
