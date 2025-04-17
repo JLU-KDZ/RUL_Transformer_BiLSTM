@@ -1,4 +1,4 @@
-## Transformer-BiLSTM Based Lithium-ion Battery Remaining Useful Life (RUL) Prediction
+# Transformer-BiLSTM Based Lithium-ion Battery Remaining Useful Life (RUL) Prediction
 
 ### 1. Project Introduction
 
