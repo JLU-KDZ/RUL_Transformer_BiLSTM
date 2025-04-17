@@ -14,9 +14,9 @@ This project aims to utilize the NASA lithium-ion battery dataset to construct a
 │	├── B0007.mat   						         
 │	└── B0018.mat   						         
 ├── model                  					    
-│   ├── best_model_LSTM.pt  				   
-│   ├── best_model_Transformer.pt       
-│   └── best_model_TransformerBiLSTM.pt 
+│	├── best_model_LSTM.pt  				   
+│	├── best_model_Transformer.pt       
+│	└── best_model_TransformerBiLSTM.pt 
 ├── picture                 				   
 ├── data_process.py							        
 ├── data_trans.py							        
