@@ -54,13 +54,13 @@ Dataset download link: [NASA Battery Dataset](https://phm-datasets.s3.amazonaws.
 
 Visualize the data by plotting the capacity degradation curves of four battery groups (B0005, B0006, B0007, B0018) at 24℃ to observe the variation trend of battery capacity with cycle counts.
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\capacity.png" alt="capacity" style="zoom: 50%;" />
+<img src="picture\capacity.png" alt="capacity" style="zoom: 50%;" />
 
 ### 5. Model Definition: Transformer-BiLSTM
 
 The `Transformer_BiLSTM.py` file contains the definition of the Transformer-BiLSTM model, which combines the global dependency capture capability of Transformer with the bidirectional feature extraction ability of BiLSTM.
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\model.png" alt="model" style="zoom:60%;" />
+<img src="picture\model.png" alt="model" style="zoom:60%;" />
 
 ### 6. Model Training
 
@@ -79,11 +79,11 @@ Load the trained model `best_model_TransformerBiLSTM.pt` , plot the prediction c
 
 The prediction curves of the model on the training, validation, and test sets are shown in the following figures:
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\bilstm-transformer-test1.png" alt="bilstm-transformer-test1" style="zoom:45%;" />
+<img src="picture\bilstm-transformer-test1.png" alt="bilstm-transformer-test1" style="zoom:45%;" />
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\bilstm-transformer-test2.png" alt="bilstm-transformer-test2" style="zoom:40%;" />
+<img src="picture\bilstm-transformer-test2.png" alt="bilstm-transformer-test2" style="zoom:40%;" />
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\bilstm-transformer-test3.png" alt="bilstm-transformer-test3" style="zoom:40%;" />
+<img src="picture\bilstm-transformer-test3.png" alt="bilstm-transformer-test3" style="zoom:40%;" />
 
 The error metrics of the model on the training, validation, and test sets are as follows:
 
@@ -99,7 +99,7 @@ To further explore the superiority of the Transformer-BiLSTM model in battery ca
 
 The prediction curves of the three models on the test set (B0018) are shown in the following figure:
 
-<img src="E:\Code\PycharmCode\RUL_Transformer_BiLSTM\picture\compare1.png" alt="compare1" style="zoom:40%;" />
+<img src="picture\compare1.png" alt="compare1" style="zoom:40%;" />
 
 The error metrics of the three models on the test set (B0018) are as follows:
 
