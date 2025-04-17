@@ -9,7 +9,7 @@ This project aims to utilize the NASA lithium-ion battery dataset to construct a
 ```
 .
 ├── dataset                 		        
-│   ├── B0005.mat   						        
+│	├── B0005.mat   						        
 │	├── B0006.mat   						       
 │	├── B0007.mat   						         
 │	└── B0018.mat   						         
@@ -105,8 +105,8 @@ The error metrics of the three models on the test set (B0018) are as follows:
 
 | Model              | R²     | MSE      | RMSE   | MAE    |
 | ------------------ | ------ | -------- | ------ | ------ |
-| LSTM               | Low    | High     | High   | High   |
-| Transformer        | High   | Medium   | Medium | Medium |
+| LSTM               | 0.9365    | 0.0015     | 0.0381   | 0.0324   |
+| Transformer        | 0.9401   | 0.0014   | 0.0370 | 0.0300 |
 | Transformer-BiLSTM | 0.9670 | 0.000755 | 0.0275 | 0.0200 |
 
 From the model comparison results, it is evident that the Transformer-BiLSTM model excels in this task. By combining the advantages of BiLSTM and Transformer, it can effectively capture long-term dependencies in time series data and comprehensively model sequence dependencies through self-attention mechanisms. This enables efficient parallel computation, making it the optimal choice for battery capacity degradation prediction tasks.
